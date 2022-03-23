@@ -1,0 +1,102 @@
+<!Doctype html>  
+<html>     
+
+	<Title>Registration Form</Title>
+	
+	<head>        
+		<!- <link rel = "stylesheet" href = "Style.css">
+		
+		
+		<script>
+			function submit()
+			{
+				document.write("Details Submitted Successfully");  
+			}
+		
+		</script>		
+	</head>  
+
+	<body><h1><center>Registration Form </center></h1>    
+		<h3>Please fill all your details to continue with the registration</h3>
+
+		<form>    
+			<label> First Name : </label>           
+				<input type="text" name="firstname" size="20"/></input> <br><br>
+			
+			<label> Last Name : </label>           
+				<input type="text" name="lastname" size="20"/> <br> <br>  
+
+			<label for="birthday"> Date of Birth :</label>
+				<input type="date" id="dob" name="dob"> <br><br>
+
+			<label for ="email"> E-mail ID :</label>
+				<input type="email" id="email" name="email"> <br><br>
+
+			<label> Address : </label>
+				<textarea cols="40" rows="5" value="address"></textarea> <br><br>
+			
+			<label> City : </label>           
+				<input type="text" name="city" size="20"/></input> <br><br>
+			
+			<label> State : </label>           
+				<select name="state" id="state">
+					<option value="select">--Select--</option>
+					<option value="andhra">Andhra Pradesh</option>
+					<option value="arunachal">Arunachal Pradesh</option>
+					<option value="assam">Assam</option>
+					<option value="bihar">Bihar</option>
+					<option value="chhattisgarh">Chhattisgarh</option>
+					<option value="goa">Goa</option>
+					<option value="gujarat">Gujarat</option>
+					<option value="haryana">Haryana</option>
+					<option value="himachal">Himachal Pradesh</option>
+					<option value="jharkhand">Jharkhand</option>
+					<option value="karnataka">Karnataka</option>
+					<option value="kerala">Kerala</option>
+					<option value="madhya">Madhya Pradesh</option>
+					<option value="maharashtra">Maharashtra</option>
+					<option value="manipur">Manipur</option>
+					<option value="meghalaya">Meghalaya</option>
+					<option value="mizoram">Mizoram</option>
+					<option value="nagaland">Nagaland</option>
+					<option value="odisha">Odisha</option>
+					<option value="punjab">Punjab</option>
+					<option value="rajasthan">Rajasthan</option>
+					<option value="sikkim">Sikkim</option>
+					<option value="tamilnadu">Tamil Nadu</option>
+					<option value="telangana">Telangana</option>
+					<option value="tripura">Tripura</option>
+					<option value="uttarpradesh">Uttar Pradesh</option>
+					<option value="uttarakhand">Uttarakhand</option>
+					<option value="westbengal">West Bengal</option>
+				</select> <br><br>
+			
+			<label> PIN Code : </label>           
+				<input type="text" name="pin" size="20"/></input> <br><br>
+			
+			<label for="phone"> Phone Number :</label>
+				<input type="tel" id="phone" name="phone" min = "1" max="10"> <br><br>
+			
+			<label>Gender : </label>  
+				<input type="radio" name="male"/> Male     
+				<input type="radio" name="female"/> Female    
+				<input type="radio" name="others"/> Others <br><br> 
+			
+			<label for="username"> Username :</label>
+				<input type="text" id="username" name="username"> <br><br>
+		
+			<label for="pwd"> Password :</label>
+				<input type="password" id="pwd" name="pwd"> <br><br>
+			
+			<input type="checkbox" id="details" name="details" value="details">
+				<label for="details"> I confirm that the details provided by me are correct and valid.</label><br>
+			<input type="checkbox" id="terms" name="terms" value="terms">
+				<label for="terms"> I agree to the terms and conditions for the registration.</label><br><br>
+			
+			<button type="button" onclick="submit()"> Submit </button>
+			
+			<button type="reset" value="reset"> Cancel </button> 
+					   
+		</form>    
+	</body>   
+</html> 
