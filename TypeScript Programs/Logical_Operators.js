@@ -1,0 +1,10 @@
+var avg = 20;
+var percentage = 90;
+console.log("\nValue of Average :", avg);
+console.log("\nValue of Percentage :", percentage);
+var result = ((avg > 50) && (percentage > 80));
+console.log("\n(Average > 50) && (Percentage > 80) :", result);
+var result = ((avg > 50) || (percentage > 80));
+console.log("\n(Average > 50) || (Percentage > 80) :", result);
+var result = !((avg > 50) && (percentage > 80));
+console.log("\n!((Average > 50) && (Percentage > 80)) :", result);

@@ -1,0 +1,14 @@
+var a = 20;
+var b = 15;
+a = b;
+console.log("\na = b :", a);
+a += b;
+console.log("\na = a + b => :", a);
+a -= b;
+console.log("\na = a - b => :", a);
+a *= b;
+console.log("\na = a * b => :", a);
+a /= b;
+console.log("\na = a / b => :", a);
+a %= b;
+console.log("\na = a % b => :", a);
